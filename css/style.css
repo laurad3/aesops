@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background-image: url("../images/aesops.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center; }
+
+.greed {
+  background-color: white;
+  background-image: url("../images/greed.gif");
+  background-repeat: no-repeat;
+  background-position: right;
+  font-family: 'Playfair Display', serif;
+  padding: 7% 5%; }
+  .greed h2 {
+    font-size: 64pt;
+    line-height: 80px;
+    width: 480px;
+    text-transform: uppercase;
+    margin: 0 0 25px 0; }
+  .greed p {
+    width: 550px;
+    font-size: 14pt;
+    font-family: 'Fauna One', serif; }
+  .greed .moral {
+    margin: 20px 0 0 0; }
+
+.poser {
+  background-color: #f15a24;
+  padding: 7% 10%; }
+  .poser h2 {
+    font-size: 20pt;
+    text-align: center;
+    color: white;
+    font-family: 'Questrial', sans-serif;
+    letter-spacing: 8px;
+    margin: 0 0 100px 0; }
+  .poser p {
+    font-size: 95pt;
+    text-align: right; }
+  .poser .moral {
+    color: white;
+    font-size: 30pt;
+    margin: 50px 0 0 0; }
+
+.grapes {
+  padding: 10% 10%; }
+  .grapes h2 {
+    font-size: 70pt;
+    margin: 0 0 25px 0; }
+  .grapes p {
+    text-align: center;
+    font-size: 33pt;
+    color: white;
+    background-color: black;
+    opacity: 0.6; }
+  .grapes .moral {
+    margin: 30px 0 0 0; }
+
+.wolf {
+  background-color: #2e334a;
+  padding: 5% 0; }
+  .wolf h2 {
+    color: #8ec9d2;
+    font-size: 30pt;
+    text-align: center;
+    font-family: 'Ovo', serif;
+    margin: 0 0 40px 0; }
+  .wolf p {
+    color: white;
+    padding: 0 20%;
+    font-family: 'Muli', sans-serif;
+    font-size: 17pt; }
+  .wolf .moral {
+    margin: 30px 0 0 0; }
+  .wolf .column {
+    width: 50%;
+    float: left; }
+
+.clear {
+  clear: both; }
+
+/* iPad horizontal */
+@media screen and (max-width: 1024px) {
+  .greed p:not(.moral) {
+    background-color: black;
+    opacity: 0.6;
+    color: white;
+    display: inline;
+    line-height: 30px; }
+  .greed .moral {
+    width: 100%;
+    color: white;
+    background-color: black;
+    opacity: 0.6; }
+
+  .poser h2 {
+    margin: 0 0 40px 0; }
+  .poser p {
+    font-size: 50pt; }
+
+  .wolf {
+    padding: 10% 10%; }
+    .wolf p {
+      padding: 0 5%; }
+    .wolf .column {
+      width: 100%; }
+    .wolf .column:first-of-type {
+      margin: 0 0 50px 0; } }
+/* iPhone vertical */
+@media screen and (max-width: 480px) {
+  .greed h2 {
+    font-size: 30pt;
+    width: 100%;
+    background-position: bottom; }
+
+  .poser p {
+    font-size: 24pt; }
+
+  .grapes {
+    padding: 7% 5%; }
+    .grapes h2 {
+      font-size: 40pt; }
+    .grapes p {
+      font-size: 20pt;
+      text-align: left; } }
+
+/*# sourceMappingURL=style.css.map */
